@@ -1,0 +1,7 @@
+--bibliotecas instaladas
+
+yarn add react-router-dom@next history react-icons date-fns styled-components react-calendar-heatmap
+
+-- Dependencias -D typescript
+
+yarn add -D @types/react-router-dom @types/react-icons @types/styled-components @types/react-calendar-heatmap
