@@ -10,8 +10,10 @@ import {
   CompanyIcon,
   LocationIcon,
   EmailIcon,
-  BlogIcon
+  BlogIcon,
+  HappyIcon
 } from './styles';
+import { Link } from 'react-router-dom';
 
 interface Props {
   username: string;
@@ -42,7 +44,17 @@ const ProfileData: React.FC<Props> = ({
   return (
     <Container>
       <Flex>
-        <Avatar src={avatarUrl} alt={username} />
+        <div className="container-img-happy">
+          <Avatar src={avatarUrl} alt={username}/>
+          
+          <Link to="">
+          <HappyIcon className="icon"/>
+          <span>set status</span>
+        </Link>
+        </div>
+
+        
+
         <div>
           <h1>{name}</h1>
           <h2>{username}</h2>

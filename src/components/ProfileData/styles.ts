@@ -6,13 +6,23 @@ import {
   RiMailLine,
   RiLinksLine,
 } from 'react-icons/ri';
+import { HiOutlineEmojiHappy } from 'react-icons/hi';
+
 export const Container = styled.div`
   
+`;
+const iconCSS = css`
+    
+   width: 16px;
+   height: 16px;
+   fill: var(--icon);
+   flex-shrink: 0;
 `;
 
 export const Flex = styled.div`
 display: flex;
 align-items: center;
+outline: none;
 
  div {
   margin-left: 24px;
@@ -20,17 +30,63 @@ align-items: center;
 }
 
  h1{
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.25;
   color: var(--gray-dark);
   font-weight: 600;
 }
 h2{
-  font-size: 17px;
+  font-size: 16px;
   color: var(--username);
   font-weight: 300;
 
 }
+    a{
+      display: flex;
+      position: relative;
+      width: 38px;
+      height: 38px;
+      background: var(--primary);
+      top:  -70px;
+      left: 220px; 
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      flex-shrink: 0;
+
+      > span{
+        display: none;
+        
+      }
+
+      &:hover, &:focus{
+        display: flex;
+        width: 90px;
+        height: 38px;
+        border-radius: 20px;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+          
+        > span{
+          display: flex;
+          font-size: 12px;
+          color: var(--gray);
+
+          &:hover, &:focus{
+            color: var(--link);
+           
+          }
+          
+        }
+
+        >.icon{
+        position: relative;
+        top: 0px;
+        left: 4px;
+        }
+      }
+       }
 
 p{
   font-size: 16px;
@@ -39,6 +95,8 @@ p{
   @media(max-width: 768px){
     font-size: 14px;
   }
+
+  
 }
 
 @media(min-width: 768px){
@@ -51,18 +109,34 @@ p{
     margin-top: 16px;
   }
 }
+  
+
 
 `;
 
 export const Avatar = styled.img`
-  width: 16%;
+position: relative;
+ left: -20px;  
+  width: 100%;
   border-radius: 50%; /* efeito arredondado */
-
+  
   @media(min-width: 768px){
-    width: 100%;
-   
+
     margin-top: -34px;
   }
+`;
+
+export const HappyIcon = styled(HiOutlineEmojiHappy)`${iconCSS}
+       display: flex;
+       position: relative;
+       top: 8px;
+       left: 8px;
+       fill: var(--primary);
+       width: 20px;
+       height: 20px;
+       align-items: center;
+       justify-content: center;
+      
 `;
 
 export const Row = styled.ul`
@@ -88,13 +162,7 @@ export const Row = styled.ul`
 
 `;
 
-const iconCSS = css`
-    
-   width: 16px;
-   height: 16px;
-   fill: var(--icon);
-   flex-shrink: 0;
-`;
+
 
 export const PeopleIcon = styled(RiGroupLine)`${iconCSS}
  margin-right: 5px;

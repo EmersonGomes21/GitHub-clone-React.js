@@ -28,6 +28,7 @@ flex-shrink: 0; /**Para que a logo não seja "amassada"*/
    border-radius: 6px;
    padding: 7px 12px;
    width: 100%;
+   color: var(--primary);
   
    &:focus{
      width: 318px
