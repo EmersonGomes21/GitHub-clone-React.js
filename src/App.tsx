@@ -5,6 +5,7 @@ import GlobalStyles from './styles/GlobalStyles';
 import Header from './components/Header';
 import Profile from './pages/Profile';
 import Repo from './pages/Repo';
+import Footer from './components/Footer';
 
 export default ()=>{
 
@@ -19,7 +20,7 @@ export default ()=>{
 
     </Routes>
 
-    {/** <Footer /> */}
+     <Footer/> 
 
      <GlobalStyles/>
      </BrowserRouter>
