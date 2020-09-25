@@ -15,6 +15,10 @@ fill: var(--logo);
 width: 32px;
 height: 32px;
 flex-shrink: 0; /**Para que a logo não seja "amassada"*/
+cursor: pointer;
+&:hover{
+  opacity: 0.5;
+}
 `;
 
 
