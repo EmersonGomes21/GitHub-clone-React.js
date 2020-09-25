@@ -30,15 +30,14 @@ cursor: pointer;
    background: var(--search);
    outline: 0;
    border-radius: 6px;
-   padding: 7px 12px;
+   padding: 7px 12px; 
    width: 100%;
-   color: var(--primary);
+   color: var(--search-placeholder);
   
    &:focus{
      width: 318px
    }
    transition: width .2s ease-out, color ease-out ;
-
 
  }
 
