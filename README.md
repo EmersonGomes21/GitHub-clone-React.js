@@ -39,7 +39,7 @@ Este é um clone da página do meu perfil GitHub, feito para fins didáticos e a
 
 ## Starting
 ### Requer:
-#### Node.js instalado ou Yarn
+#### Node.js/npm instalado ou Yarn
 
 #### Execute o comando <i>npm install</i> para baixar as dependências do Projeto.
 #### Por fim, execute <i> npm start </i>  para executar o projeto em seu navegador.
