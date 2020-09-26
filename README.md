@@ -10,16 +10,10 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
 </p>
 
-<p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
 <br>
 
 <p align="center">
-  <img alt="BeTheHero" src="https://github.com/EmersonGomes21/repositorios-readmes/blob/master/github-clone/Capturar.JPG" width="100%">
+  <img alt="GitHub-clone" src="https://github.com/EmersonGomes21/repositorios-readmes/blob/master/github-clone/Capturar.JPG" width="100%">
 </p>
 
 ## :rocket: Tecnologias
@@ -33,9 +27,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.
+Este é um clone da página do meu perfil GitHub, feito para fins didáticos e aperfeiçoamentos de habilidades com o Front-end, utilizando o React.js, TypeScript e consumindo dados de API (GitHub).
 
+## Funcionalidades
 
+### - Busca e exibe dados da API do GitHub, a partir do nome de usúario inserido no componente de pesquisa.
+### - Calendário de contribuições dinâmico
+### - Tema Dark ao clicar na logo do Github
 
 ## :memo: Licença
 
