@@ -10,7 +10,6 @@ interface Props{
 }
 
 
-
 const Header: React.FC<Props> = (
   {
     themeName, setThemeName
@@ -24,6 +23,7 @@ const Header: React.FC<Props> = (
     event.preventDefault();
     navigate('/' + search.toLowerCase().trim());
   }
+
 
   const toggleTheme = () =>{
     setThemeName(themeName === 'light' ? 'dark' : 'light');

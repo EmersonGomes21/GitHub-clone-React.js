@@ -21,6 +21,8 @@ interface Data {
   repos?: APIRepo[];
   error?: string;
 }
+
+
 const Profile: React.FC = () => {
 
   const { username = 'EmersonGomes21' } = useParams();
@@ -50,7 +52,6 @@ const Profile: React.FC = () => {
          repos: sliceRepos,
       })
 
-      console.log(user);
 
     });
   }, [username]);
@@ -96,7 +97,7 @@ const Profile: React.FC = () => {
             email={data.user.email}
             blog={data.user.blog}
             bio = {data.user.bio}
-
+           
           />
 
         </LeftSide>
@@ -112,6 +113,7 @@ const Profile: React.FC = () => {
             <h2>Random repos</h2>
             <div>
               {data.repos.map((item) => (
+                  
                 <RepoCard
                   key={item.name}
                   username={item.owner.login}
@@ -120,8 +122,9 @@ const Profile: React.FC = () => {
                   language={item.language}
                   stars={item.stargazers_count}
                   forks={item.forks}
+
                 />
-              ))}
+              ))  }
             </div>
           </Repos>
 
@@ -140,5 +143,5 @@ const Profile: React.FC = () => {
     </Container>
   )
 }
-
+  
 export default Profile;

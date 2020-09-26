@@ -6,7 +6,6 @@ export const themes = {
     'gray-light': '#6a737d',
     'gray-dark': '#24292e',
     orange: '#f9826c',
-
     header: '#24292e',
     logo: '#fff',
     username: '#666',
