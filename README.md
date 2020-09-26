@@ -35,6 +35,15 @@ Este é um clone da página do meu perfil GitHub, feito para fins didáticos e a
 ### - Calendário de contribuições dinâmico
 ### - Tema Dark ao clicar na logo do Github
 
+
+
+## Starting
+### Requer:
+#### Node.js instalado ou Yarn
+
+#### Execute o comando <i>npm install</i> para baixar as dependências do Projeto.
+#### Por fim, execute <i> npm start </i>  para executar o projeto em seu navegador.
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
